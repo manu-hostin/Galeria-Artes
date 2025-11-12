@@ -2,8 +2,9 @@ body{
     background-color: aliceblue;
 }
 img {
-    max-width: 300px;
+    max-width: 360px;
     margin-left: 1rem;
+    max-height: 90%;
 }
 h1 {
     background-color: rgb(213, 230, 230);
@@ -13,9 +14,23 @@ h1 {
     align-items: center;
     font-size: 3rem;
 }
-.imagens{
-    background-color:rgba(240, 255, 255, 0.863);
+#imagens{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+.draggable {
+  color: white;
+  cursor: grab;
+}
+#dropzone {
+  padding: 40px;
+  background-color:aliceblue;
+  border: 2px dashed #bbb;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
