@@ -33,4 +33,16 @@ h1 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+
+  width: 45%;
+}
+#favoritos{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 300px;
+}
+h2{
+  font-size: 2.7rem;
+  margin: 0;
 }
